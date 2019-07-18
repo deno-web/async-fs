@@ -1,2 +1,2 @@
-export { readFile, writeFile } from './lib/file';
-export { readDir, writeDir } from './lib/dir';
+export { readFile, writeFile } from "./lib/file.ts";
+export { readDir, writeDir } from "./lib/dir.ts";
