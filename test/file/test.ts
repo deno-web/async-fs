@@ -15,6 +15,6 @@ test(async function testwriteFile() {
   const result = await readFile(path.resolve(__dirname, "./test.txt"));
   assertEquals("hello async-fs!", result);
   await writeFile("hello world", path.resolve(__dirname, "./test.txt"));
-})
+});
 
 runIfMain(import.meta);

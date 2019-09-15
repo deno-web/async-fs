@@ -4,7 +4,7 @@ export async function readFile(filePath: string) {
     const text = new TextDecoder().decode(bytes);
     return text;
   } catch (err) {
-    throw new Error('Path Error!')
+    throw new Error("Path Error!");
   }
 }
 
